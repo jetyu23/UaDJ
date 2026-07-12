@@ -49,7 +49,13 @@ so the next provider change is a one-file swap rather than a rewrite.
 
 - Free-tier analysis quota: runs are capped at 150 tracks and results are
   cached in-process, so re-running a playlist doesn't re-spend quota.
-- Tracks the provider doesn't know get a neutral cost and a "no data" chip
-  rather than breaking the sequence.
+- Tracks the provider doesn't know get a neutral cost and a "no data" chip rather than breaking the sequence.
 - Auth is Spotify's PKCE flow with a state check; tokens live in httpOnly
   cookies and refresh silently once before asking you to log in again.
+
+  ## Demo
+
+https://github.com/user-attachments/assets/c2036ca0-5808-4db4-86b9-7c5a34e269de
+  
+
+

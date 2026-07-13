@@ -1,7 +1,7 @@
 # UaDJ — harmonic playlist sequencer
 
 Reorders a Spotify playlist so consecutive tracks are harmonically and
-rhythmically compatible — the order a DJ would choose — built for Spotify's
+rhythmically compatible, built for Spotify's
 DJ mix feature. Reads each track's key and tempo, scores every possible
 transition on the Camelot wheel, and sequences the playlist to minimise
 total transition cost. Saves the result as a new playlist; never touches
